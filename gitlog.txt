@@ -1,0 +1,231 @@
+* commit 656712a80dc5daebad4c3cb7fe3ee329c2c412e9
+| Author: Niklas Pfleger <niklas@WwmHarry01.local>
+| Date:   Wed Dec 7 19:36:58 2016 +0100
+| 
+|     Resolved conflicts
+| 
+| diff --git a/hello_c.py b/hello_c.py
+| index 35c7a51..4b46d65 100644
+| --- a/hello_c.py
+| +++ b/hello_c.py
+| @@ -1,5 +1,2 @@
+| -<<<<<<< HEAD
+| -print("Hello c”)
+| -=======
+|  print("Hello c")
+| ->>>>>>> develop
+| +
+|    
+*   commit b9ad4f48d1a8365c28d2018d1bd94914f9f21e68
+|\  Merge: 00ce1aa 4cb4dad
+| | Author: Niklas Pfleger <niklas@WwmHarry01.local>
+| | Date:   Wed Dec 7 19:34:43 2016 +0100
+| | 
+| |     Resolve conflicts
+| |   
+| * commit 4cb4dad08e7aab4bbec6d1823e141a627f8ac9d8
+| | Author: Niklas Pfleger <niklas@WwmHarry01.local>
+| | Date:   Wed Dec 7 19:27:33 2016 +0100
+| | 
+| |     Changed the file
+| | 
+| | diff --git a/hello_c.py b/hello_c.py
+| | new file mode 100644
+| | index 0000000..69e0076
+| | --- /dev/null
+| | +++ b/hello_c.py
+| | @@ -0,0 +1 @@
+| | +print("Hello c")
+| |   
+| * commit f410a4d048ba1ef21f2cc3842e5a00bc0b63184d
+| | Author: Niklas Pfleger <niklas@WwmHarry01.local>
+| | Date:   Wed Dec 7 19:07:59 2016 +0100
+| | 
+| |     Changed the file
+| | 
+| | diff --git a/hello_b.py b/hello_b.py
+| | index e69de29..ebf18b3 100644
+| | --- a/hello_b.py
+| | +++ b/hello_b.py
+| | @@ -0,0 +1 @@
+| | +print("Hello Mrs. B")
+| |   
+| * commit ceb9962ae2f020276617515d3f7f2fbebefb9847
+| | Author: Niklas Pfleger <niklas@WwmHarry01.local>
+| | Date:   Wed Dec 7 19:04:19 2016 +0100
+| | 
+| |     Added new file
+| | 
+| | diff --git a/hello_b.py b/hello_b.py
+| | new file mode 100644
+| | index 0000000..e69de29
+| |   
+* | commit 00ce1aabfe04b2dcc4dca30633919096014118de
+| | Author: Niklas Pfleger <niklas@WwmHarry01.local>
+| | Date:   Wed Dec 7 19:22:45 2016 +0100
+| | 
+| |     Changed the file
+| | 
+| | diff --git a/hello_c.py b/hello_c.py
+| | index e69de29..c604f38 100644
+| | --- a/hello_c.py
+| | +++ b/hello_c.py
+| | @@ -0,0 +1 @@
+| | +print("Hello C")
+| |   
+* | commit 46badace6d3c95321553534733b34ec4f2aba5fd
+| | Author: Niklas Pfleger <niklas@WwmHarry01.local>
+| | Date:   Wed Dec 7 19:21:45 2016 +0100
+| | 
+| |     Created a file
+| | 
+| | diff --git a/hello_c.py b/hello_c.py
+| | new file mode 100644
+| | index 0000000..e69de29
+| |   
+* | commit cca8911c237fe301c95028737a4187e0ff85eafb
+| | Author: Niklas Pfleger <niklas@WwmHarry01.local>
+| | Date:   Wed Dec 7 19:19:03 2016 +0100
+| | 
+| |     master merge 'develop'
+| | 
+| | diff --git a/hello_b.py b/hello_b.py
+| | new file mode 100644
+| | index 0000000..ebf18b3
+| | --- /dev/null
+| | +++ b/hello_b.py
+| | @@ -0,0 +1 @@
+| | +print("Hello Mrs. B")
+| |   
+* | commit 918471e14937b94f4371efcc3c949752b372c268
+|/  Author: Niklas Pfleger <niklas@WwmHarry01.local>
+|   Date:   Wed Dec 7 19:13:41 2016 +0100
+|   
+|       Changed the file
+|   
+|   diff --git a/hello_a.py b/hello_a.py
+|   index e69de29..b68d792 100644
+|   --- a/hello_a.py
+|   +++ b/hello_a.py
+|   @@ -0,0 +1 @@
+|   +print("Hello Mr. A")
+|  
+* commit 9fa210834c5f350b42e49184567b99c873b52638
+| Author: Niklas Pfleger <niklas@WwmHarry01.local>
+| Date:   Wed Dec 7 18:56:02 2016 +0100
+| 
+|     Initial commit
+| 
+| diff --git a/hello_a.py b/hello_a.py
+| new file mode 100644
+| index 0000000..e69de29
+|  
+* commit 1326adb3a28b1e397655fc1cde55b9b6f96d3053
+  Author: Niklas Pfleger <niklas@infoware.li>
+  Date:   Wed Dec 7 18:52:09 2016 +0100
+  
+      Initial commit
+  
+  diff --git a/.gitignore b/.gitignore
+  new file mode 100644
+  index 0000000..72364f9
+  --- /dev/null
+  +++ b/.gitignore
+  @@ -0,0 +1,89 @@
+  +# Byte-compiled / optimized / DLL files
+  +__pycache__/
+  +*.py[cod]
+  +*$py.class
+  +
+  +# C extensions
+  +*.so
+  +
+  +# Distribution / packaging
+  +.Python
+  +env/
+  +build/
+  +develop-eggs/
+  +dist/
+  +downloads/
+  +eggs/
+  +.eggs/
+  +lib/
+  +lib64/
+  +parts/
+  +sdist/
+  +var/
+  +*.egg-info/
+  +.installed.cfg
+  +*.egg
+  +
+  +# PyInstaller
+  +#  Usually these files are written by a python script from a template
+  +#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+  +*.manifest
+  +*.spec
+  +
+  +# Installer logs
+  +pip-log.txt
+  +pip-delete-this-directory.txt
+  +
+  +# Unit test / coverage reports
+  +htmlcov/
+  +.tox/
+  +.coverage
+  +.coverage.*
+  +.cache
+  +nosetests.xml
+  +coverage.xml
+  +*,cover
+  +.hypothesis/
+  +
+  +# Translations
+  +*.mo
+  +*.pot
+  +
+  +# Django stuff:
+  +*.log
+  +local_settings.py
+  +
+  +# Flask stuff:
+  +instance/
+  +.webassets-cache
+  +
+  +# Scrapy stuff:
+  +.scrapy
+  +
+  +# Sphinx documentation
+  +docs/_build/
+  +
+  +# PyBuilder
+  +target/
+  +
+  +# IPython Notebook
+  +.ipynb_checkpoints
+  +
+  +# pyenv
+  +.python-version
+  +
+  +# celery beat schedule file
+  +celerybeat-schedule
+  +
+  +# dotenv
+  +.env
+  +
+  +# virtualenv
+  +venv/
+  +ENV/
+  +
+  +# Spyder project settings
+  +.spyderproject
+  +
+  +# Rope project settings
+  +.ropeproject
+  diff --git a/README.md b/README.md
+  new file mode 100644
+  index 0000000..e1bb743
+  --- /dev/null
+  +++ b/README.md
+  @@ -0,0 +1 @@
+  +# inf1_exercise_6
+  \ No newline at end of file
